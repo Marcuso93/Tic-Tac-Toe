@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(207, 207, 238);
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #game-board {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+   
+  
+  }
+  
+  .box {
+    flex: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px solid rgb(19, 121, 61);
+    font-size: 100px;
+    cursor: pointer;
+    
+  }
+
+  #game-winner {
+    color: rgb(194, 39, 39);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.player-name {
+  font-size: 20px;
+  font: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  background: white;
+  
+}
+
+button {
+  background: white;
+}
+
